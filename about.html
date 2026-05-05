@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Enrico Gabriel Ong — education at UConn, background from Putnam CT, leadership and awards." />
+  <title>About — Enrico Gabriel Ong</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo" href="enrico.html">Home</a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Proficiencies</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="nav-github-link" href="https://github.com/enricostatdatascience-web" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about" aria-labelledby="about-title">
+      <h1 class="page-title" id="about-title">About</h1>
+      <ul class="quick-facts" aria-label="Profile highlights">
+        <li><strong>Location:</strong> Putnam, Connecticut</li>
+        <li><strong>School:</strong> University of Connecticut</li>
+        <li><strong>Degree:</strong> B.S. Statistical Data Science</li>
+        <li><strong>Graduation:</strong> May 2028</li>
+      </ul>
+      <div class="prose">
+        <p>
+          I am a Statistical Data Science student at the University of Connecticut with a strong interest
+          in applying data-driven methods to real-world problems, particularly in finance, technology,
+          and sports analytics. As a first-generation Filipino-Chinese immigrant from Putnam,
+          Connecticut, my background has shaped my perspective on problem-solving, adaptability, and
+          the value of opportunity, all of which influence how I approach data and decision-making.
+        </p>
+        <h2>Technical foundation</h2>
+        <p>
+          My academic experience has given me a solid foundation in statistical modeling, data analysis,
+          and programming, with hands-on work in Python and R to clean, analyze, and visualize complex
+          datasets. I have built regression models, conducted exploratory data analysis, and interpreted
+          results to generate meaningful insights that support decision-making.
+        </p>
+        <h2>Practical experience</h2>
+        <p>
+          Alongside my coursework, I have gained practical experience through roles in data analysis and
+          IT support. In my current position supporting Athletics IT and device management at UConn, I
+          troubleshoot technical issues, manage ticketing systems, and work with enterprise tools to
+          improve system efficiency and user experience. Previously, I worked as a Data Analyst, where
+          I collected and analyzed regional data to identify socioeconomic patterns and present findings
+          through clear, data-driven visualizations.
+        </p>
+        <h2>Career focus</h2>
+        <p>
+          I am particularly interested in using data science to uncover patterns, optimize performance,
+          and support strategic decisions. Whether analyzing player performance in sports, exploring
+          financial trends, or solving technical problems, I focus on combining analytical thinking with
+          practical application. I am continuously developing my skills in machine learning, statistical
+          modeling, and data visualization, and I am seeking opportunities to grow as a data scientist
+          in environments that value innovation, impact, and collaboration.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Enrico Gabriel Ong.</p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

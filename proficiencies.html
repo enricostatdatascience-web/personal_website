@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Technical skills — Python, R, SQL, ML basics, visualization, and tools." />
+  <title>Skills — Enrico Gabriel Ong</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo" href="enrico.html">Home</a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="proficiencies.html" aria-current="page">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="skills" aria-labelledby="skills-title">
+      <h1 class="page-title" id="skills-title">Skills &amp; tools</h1>
+      <div class="prose">
+        <h2>Technical</h2>
+        <ul class="list-two-col">
+          <li>Python (pandas, NumPy, matplotlib)</li>
+          <li>R</li>
+          <li>SQL</li>
+          <li>Microsoft Excel (pivot tables, VLOOKUP)</li>
+          <li>Git / GitHub</li>
+          <li>Jira Service Management</li>
+          <li>Confluence</li>
+          <li>Windows &amp; macOS</li>
+          <li>Data cleaning</li>
+          <li>Exploratory data analysis (EDA)</li>
+          <li>Statistical analysis</li>
+          <li>Root cause analysis</li>
+        </ul>
+
+        <h2>Machine learning</h2>
+        <ul class="list-two-col">
+          <li>Supervised learning (linear &amp; logistic regression)</li>
+          <li>Model evaluation (train/test split, accuracy, R², MAE)</li>
+          <li>Feature engineering</li>
+          <li>Data preprocessing</li>
+          <li>Basic classification models</li>
+        </ul>
+
+        <h2>Data visualization &amp; storytelling</h2>
+        <ul class="list-two-col">
+          <li>matplotlib (Python)</li>
+          <li>Tableau</li>
+          <li>Excel charts &amp; dashboards</li>
+          <li>PowerPoint reporting</li>
+          <li>Data storytelling &amp; trend analysis</li>
+          <li>Comparative visualizations</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Enrico Gabriel Ong.</p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

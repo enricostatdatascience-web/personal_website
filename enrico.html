@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Enrico Gabriel Ong — Statistical Data Science student at UConn; data analytics, IT, and community-focused work." />
+  <title>Enrico Gabriel Ong — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo" href="enrico.html">Home</a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Proficiencies</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="nav-github-link" href="https://github.com/enricostatdatascience-web" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-layout">
+        <figure class="hero-photo-wrap">
+          <img class="hero-photo" src="headshot.jpg" alt="Portrait of Enrico Gabriel Ong" />
+          <figcaption class="hero-caption">University Class of 2028 Statistical Data Science Major</figcaption>
+        </figure>
+        <div class="hero-content">
+          <p class="tagline">Statistical Data Science · Data analytics · IT support</p>
+          <h1 id="hero-title">Hi — I’m Enrico Gabriel Ong.</h1>
+          <div class="spotlight-card" role="note" aria-label="Quick profile summary">
+            <strong>UConn SDS · Class of 2028 · GPA 3.78</strong>
+            <span>Focused on finance, technology, and sports analytics</span>
+          </div>
+          <p class="lead">
+            I am a University of Connecticut student studying Statistical Data Science with a concentration
+            in financial analysis, and I am building broad experience across data analysis, AI-focused
+            analytics projects, and enterprise IT support through hands-on work in manufacturing settings
+            and community-centered research initiatives related to housing and local socioeconomic patterns.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="projects.html">See experience</a>
+            <a class="btn btn-ghost" href="contact.html">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Enrico Gabriel Ong.</p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
